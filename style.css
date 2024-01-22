@@ -1,0 +1,42 @@
+h1 {
+    font-family: 'Philosopher', sans-serif;
+    color: #017BB4;
+    font-weight: 400;
+   }
+.vkek {
+    background-color: #C9DCEA;
+    border-radius: 10px;
+  }
+h3 {
+    font-family: 'Philosopher', sans-serif;
+    color: #017BB4;
+}
+body {
+    color: #017BB4;
+}
+.szlogen {
+    font-family: 'Dancing Script', cursive;
+}
+.kekkockak {
+    display: flex;
+}
+.bal {
+        width: 48%;
+        margin-right: auto;
+}
+.jobb {
+        width: 48%;
+}
+@media (max-width: 992px) {
+    .kekkockak {
+        display: block;
+    }
+    .bal {
+            width: 100%;
+            margin-bottom: 30px;
+                }
+    .jobb {
+            width: 100%;
+    }
+
+}
